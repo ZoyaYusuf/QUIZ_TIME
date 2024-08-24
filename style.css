@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(5, 13, 73);
+}
+
+#timer {
+    position: absolute;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    box-shadow: -4px 4px 30px white;
+}
+
+
+#main{
+    height: 550px;
+    width: 700px;
+    background-color: azure;
+    margin-top: 30px;
+    margin-left: 25vw;  
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    border-radius: 15px;
+    border: 1px black solid;
+}
+
+#ques{
+    height: 60px;
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* background-color: rgba(240, 248, 255, 0.65); */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;   
+}
+
+#h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin: 30px;
+    letter-spacing: 5px;
+}
+
+#options{
+    height: 340px;
+    width: 650px;
+    background-color: rgba(5, 13, 73, 0.326);
+    margin-left: 3%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+.op{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(5, 13, 73);
+    /* box-shadow: 2px 2px 8px blue; */
+    margin-left: 25px;
+    color: white;
+    border-radius: 5px;
+    border: 1px white solid;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.op:hover:not([disabled])
+
+{
+    background-color: rgb(171, 179, 236);
+    box-shadow: 2px 2px 8px rgb(2, 2, 58);
+    color: black;
+}
+
+#next{
+    height: 40px;
+    width: 180px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#next:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.correct{
+    background-color: rgb(105, 233, 105);
+    color: black;
+    
+}
+
+.incorrect{
+    background-color: rgb(233, 106, 106);
+    color: black;
+    
+}
+
+
+@media (max-width:700px){
+    #main{
+    margin-left : 0px;  
+}
+}
